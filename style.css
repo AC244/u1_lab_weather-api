@@ -99,3 +99,24 @@ button:hover {
     }
 }
 
+@media screen and (max-height: 650px) {
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    h1 {
+        font-size:0.7em;
+
+    }
+    #city {
+        font-size: 0.7em;
+        border-style: groove;
+        border-radius: 1m;
+    }
+    body {
+        background-color: rgba(0, 255, 255, 0.262);
+        font-family: monospace;
+    }
+    
+}
+
