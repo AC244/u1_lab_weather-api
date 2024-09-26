@@ -84,6 +84,10 @@ button:hover {
         display: flex;
         justify-content: space-between;
     }
+    h1 {
+        font-size:1.5em;
+
+    }
     #city {
         font-size: 1em;
         border-style: groove;
@@ -91,6 +95,7 @@ button:hover {
     }
     body {
         background-color: rgba(0, 255, 255, 0.262);
+        font-family: fantasy;
     }
 }
 
