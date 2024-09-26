@@ -75,7 +75,6 @@ button:hover {
     }
     h1 {
         color: purple;
-        
     }
 }
 
@@ -106,7 +105,7 @@ button:hover {
     }
     h1 {
         font-size:0.7em;
-
+        padding: 15px;
     }
     #city {
         font-size: 0.7em;
