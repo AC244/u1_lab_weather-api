@@ -1,5 +1,12 @@
 document.getElementById('searchBtn').addEventListener('click', getWeather);
 
+document.getElementById('city').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault(); 
+        getWeather(); 
+    }
+});
+
 async function getWeather() {
     const city = document.getElementById('city').value;
     const apiKey = 'f2d856b5acd74d4ebbf135534242609';
